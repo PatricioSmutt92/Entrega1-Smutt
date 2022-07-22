@@ -24,10 +24,12 @@ Hola mundo!
   </header>
 <h1>Bienenidos!</h1>
 <p>Registro</p>
-    <form action={% url'RegistroUsuario' %} method="get">
+    <div>
+      <form action={% url'RegistroUsuario' %} method="get">
     <input type="text" name="nombre_usuario" required>
     <input type="text" name="contraseña" required>
     <button type="button" class="btn btn-success">Registro!</button>
+         </div>
 </body>
       </div>
 <div class="container">
